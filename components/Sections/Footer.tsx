@@ -4,7 +4,7 @@ import Link from 'next/link'
 // type PropsI = {}
 // {...props}
 
-export default function Copyright() {
+export default function Footer() {
   return (
     <Typography
       variant='body2'
@@ -12,7 +12,7 @@ export default function Copyright() {
       align='center'
       sx={{ mt: 8, mb: 4 }}
     >
-      {'Copyright © '}
+      {'Footer © '}
       <Link color='inherit' href='https://mui.com/'>
         Your Website
       </Link>{' '}

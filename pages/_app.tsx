@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import Copyright from '../components/Sections/Footer'
+import Footer from '../components/Sections/Footer'
 import Header from '../components/Sections/Header'
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Header />
       <Component {...pageProps} />
-      <Copyright />
+      <Footer />
     </>
   )
 }
