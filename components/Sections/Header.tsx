@@ -1,14 +1,13 @@
 import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack'
 import Link from 'next/link'
-import React from 'react'
 import Image from 'next/image'
 import {Buttons} from '../Buttons'
 
 export default function Header() {
   return (
     <header>
-      <div className='header-top bg-red-400'>
+      <div className='header-top'>
         <div className='container mx-auto flex justify-center'>
           The best platform for interactive learning...
         </div>

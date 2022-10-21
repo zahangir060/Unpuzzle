@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Layout style */
+.container {
+    max-width: 100%;
+    padding: 0 150px;
+}
+/* Header style */
 header .header-top {
     background: #1CABF2;
     font-family: 'Poppins';
@@ -56,4 +62,32 @@ header nav ul li a {
 header .search-form {
     width: 100%;
     padding: 0 40px;
+}
+
+/* Footer style */
+footer {
+    background: #F2F2F2;
+    padding: 70px 0;
+}
+footer h4 {
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+footer .footer-main ul {
+    padding: 20px 0;
+}
+footer .footer-main ul li {
+    padding: 5px 0;
+}
+footer .footer-main ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
 }
