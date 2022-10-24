@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* fontface  */
+@font-face {
+  font-family: "patua-one";
+  src: url("../public/fonts/patua-one.regular.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 /* Layout style */
 .container {
   max-width: 100%;
