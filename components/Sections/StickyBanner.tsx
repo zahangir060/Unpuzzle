@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Ratings from "../Ratings";
 function StickyBanner() {
   return (
     <>
@@ -26,11 +27,7 @@ function StickyBanner() {
         <div className="flex items-center gap-x-2 font-poppins pb-2">
           <span className="text-[14px] font-bold text-yellow">4.6</span>
           <span>
-            <Image src="/star-sm.png" width={14} height={14} alt="icon" />
-            <Image src="/star-sm.png" width={14} height={14} alt="icon" />
-            <Image src="/star-sm.png" width={14} height={14} alt="icon" />
-            <Image src="/star-sm.png" width={14} height={14} alt="icon" />
-            <Image src="/star-sm.png" width={14} height={14} alt="icon" />
+            <Ratings width={16} height={16}></Ratings>
           </span>
           <span className="text-[14px] text-black-50">(135)</span>
         </div>

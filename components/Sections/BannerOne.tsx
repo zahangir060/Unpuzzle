@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function BannerOne() {
   return (
-    <div className="container mt-24 mb-36 flex items-center">
+    <div className="container max-w-full mt-24 mb-36 flex items-center">
       <div className="left w-3/5">
         <h1 className="font-patuaOne text-lg mb-7 text-black-100">
           Figma in 40 Minutes

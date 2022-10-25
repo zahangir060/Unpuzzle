@@ -7,7 +7,7 @@ import TrainerCard from "./TrainerCard";
 import VideoPuzzlePiece from "./VideoPuzzlePiece";
 function JourneySection() {
   return (
-    <div className="container font-poppins flex items-top gap-4 my-24 relative">
+    <div className="container max-w-full font-poppins flex items-top gap-4 my-24 relative">
       {/* journey section left column  */}
 
       <div className="w-4/5 flex-column">
@@ -17,7 +17,6 @@ function JourneySection() {
         <ConfusionJourney></ConfusionJourney>
         <VideoPuzzlePiece></VideoPuzzlePiece>
         <PuzzlesByTrainer></PuzzlesByTrainer>
-        {/* <JourneyPuzzle></JourneyPuzzle> */}
       </div>
 
       {/* journey section right column  */}
