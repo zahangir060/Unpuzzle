@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import BannerOne from "../components/Sections/bannerOne";
+import BannerOne from "../components/Sections/BannerOne";
 import JourneySection from "../components/Sections/JourneySection";
 import styles from "../styles/Home.module.css";
 

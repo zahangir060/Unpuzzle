@@ -1,7 +1,4 @@
 import Image from "next/image";
-import star from "../../public/icons/star.png";
-import youtube from "../../public/icons/youtube.png";
-import max from "../../public/images/maxresdefault1.png";
 
 function BannerOne() {
   return (
@@ -12,7 +9,7 @@ function BannerOne() {
         </h1>
         <div className="font-poppins">
           <p className="flex items-center gap-2 font-poppins font-regular">
-            <Image src={youtube} alt="icon" />
+            <Image src="/youtube.png" width={48} height={20} alt="icon" />
             Puzzle Journey
           </p>
           <p className="font-poppins font-regular text-grey">
@@ -33,11 +30,11 @@ function BannerOne() {
           <div className="flex items-center gap-x-2 font-poppins">
             <span className="text-[16px] font-bold text-yellow">4.6</span>
             <span>
-              <Image src={star} alt="icon" />
-              <Image src={star} alt="icon" />
-              <Image src={star} alt="icon" />
-              <Image src={star} alt="icon" />
-              <Image src={star} alt="icon" />
+              <Image src="/star.png" width={21} height={20} alt="icon" />
+              <Image src="/star.png" width={21} height={20} alt="icon" />
+              <Image src="/star.png" width={21} height={20} alt="icon" />
+              <Image src="/star.png" width={21} height={20} alt="icon" />
+              <Image src="/star.png" width={21} height={20} alt="icon" />
             </span>
             <span className="text-[14px] text-black-50">(135)</span>
           </div>
@@ -50,7 +47,7 @@ function BannerOne() {
         </div>
       </div>
       <div className="right w-2/5">
-        <Image src={max} alt="image" />
+        <Image src="/maxresdefault1.png" width={700} height={380} alt="image" />
       </div>
     </div>
   );
