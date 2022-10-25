@@ -28,7 +28,7 @@ export default function Header() {
           </nav>
           <div className='grid items-center place-items-end'>
             <ul className='text-right items-end'>
-              <li className='inline pl-2.5'><a href='/' className='px-2.5 py-2.5'><Image src="/icons/cart.png" width={20} height={20} alt=""/></a></li>
+              <li className='inline pl-2.5'><a href='/' className='px-2.5 py-2.5'><Image src="/cart.png" width={20} height={20} alt=""/></a></li>
               <li className='inline pl-2.5'><Link href='/login' passHref><button className="bg-white px-10 py-2 rounded text-yellow font-normal font-poppins text-sm border border-solid border-yellow">Login</button></Link></li>
               <li className='inline pl-2.5'><Link href='/register' passHref><button className="bg-blue px-10 py-2 rounded text-white font-normal font-poppins text-sm">Sign Up</button></Link></li>
             </ul>
