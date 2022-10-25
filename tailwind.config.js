@@ -7,6 +7,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      padding: '150px',
+    },
     extend: {
       screens: {
         sm: '480px',
