@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className='py-20 bg-[#F2F2F2]'>
       <div className='container max-w-full grid grid-cols-4'>
         <div className='col-auto'>
-        <Link href='/' passHref><a href='/'><Image src="/images/footer-logo.png" width={114} height={113} alt=""/></a></Link>
+        <Link href='/' passHref><a href='/'><Image src="/footer-logo.png" width={114} height={113} alt=""/></a></Link>
         </div>
         <div className='col-auto'>
             <h4 className='font-patuaOne font-normal text-md text-black pb-6'>Courses</h4>
@@ -37,9 +37,9 @@ export default function Footer() {
       </div>
       <nav className='grid items-center text-center pt-20'>
         <ul>
-          <li className='inline pr-6'><a href="#"><Image src="/icons/linkedin.png" width={25} height={25} alt=""/></a></li>
-          <li className='inline pr-6'><a href="#"><Image src="/icons/twitter.png" width={25} height={25} alt=""/></a></li>
-          <li className='inline pr-6'><a href="#"><Image src="/icons/facebook.png" width={25} height={25} alt=""/></a></li>
+          <li className='inline pr-6'><a href="#"><Image src="/linkedin.png" width={25} height={25} alt=""/></a></li>
+          <li className='inline pr-6'><a href="#"><Image src="/twitter.png" width={25} height={25} alt=""/></a></li>
+          <li className='inline pr-6'><a href="#"><Image src="/facebook.png" width={25} height={25} alt=""/></a></li>
         </ul>
       </nav>
     </footer>
