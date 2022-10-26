@@ -5,6 +5,7 @@ import PuzzlesByTrainer from "./PuzzlesByTrainer";
 import StickyBanner from "./StickyBanner";
 import TrainerCard from "./TrainerCard";
 import VideoPuzzlePiece from "./VideoPuzzlePiece";
+import JourneyPuzzle from "./JourneyPuzzle";
 function JourneySection() {
   return (
     <div className="container max-w-full font-poppins flex items-top gap-4 my-24 relative">
@@ -13,6 +14,7 @@ function JourneySection() {
       <div className="w-4/5 flex-column">
         <JourneyTop></JourneyTop>
         <JourneyVideo></JourneyVideo>
+        <JourneyPuzzle></JourneyPuzzle>
         <TrainerCard></TrainerCard>
         <ConfusionJourney></ConfusionJourney>
         <VideoPuzzlePiece></VideoPuzzlePiece>

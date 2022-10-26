@@ -1,64 +1,48 @@
 import Image from "next/image";
-import puzzle2 from "../../public/images/puzzles/Vector-1.svg";
-import puzzle3 from "../../public/images/puzzles/Vector-3.svg";
-import puzzle4 from "../../public/images/puzzles/Vector-5.svg";
-import puzzle1 from "../../public/images/puzzles/Vector.svg";
 function JourneyPuzzle() {
   return (
-    <div className="w-full h-[600px] grid gap-2">
-      <div className="flex h-92 w-full">
+    <div className="w-full h-[620px] mb-40 grid gap-2">
+      <div className="flex w-full">
         <div className="w-1/4 relative">
           <div className="absolute" style={{ zIndex: -1 }}>
-            <Image src={puzzle1} alt="puzzle" />
+            <Image src="/puzzle-piece-1.png" width={308} height={309} alt="puzzle" />
           </div>
         </div>
         <div className="w-1/4 relative">
-          <div className="absolute" style={{ left: "-81px", zIndex: -1 }}>
-            <Image src={puzzle2} alt="puzzle" />
-          </div>
-          <div className="desc">
-            <h1>Test</h1>
+          <div className="absolute" style={{ left: "-79px", zIndex: -1 }}>
+            <Image src="/puzzle-piece-2.png" width={380} height={308} alt="puzzle" />
           </div>
         </div>
         <div className="w-1/4 relative">
-          <div className="absolute" style={{ left: "-91px", zIndex: -1 }}>
-            <Image src={puzzle3} alt="puzzle" />
+          <div className="absolute" style={{ left: "-88px", zIndex: -1 }}>
+            <Image src="/puzzle-piece-3.png" width={380} height={308} alt="puzzle" />
           </div>
         </div>
         <div className="w-1/4 relative">
-          <div
-            className="absolute"
-            style={{ left: "-100px", top: "-2px", zIndex: -1 }}
-          >
-            <Image src={puzzle4} alt="puzzle" />
+          <div className="absolute" style={{ left: "-98px", zIndex: -1 }} >
+            <Image src="/puzzle-piece-4.png" width={380} height={382} alt="puzzle" />
           </div>
         </div>
       </div>
-      <div className="flex h-92 w-full">
+      <div className="flex w-full">
         <div className="w-1/4 relative">
-          <div className="absolute" style={{ zIndex: -1 }}>
-            <Image src={puzzle1} alt="puzzle" />
+          <div className="absolute" style={{ top: "-76px", zIndex: -1 }}>
+            <Image src="/puzzle-piece-5.png" width={308} height={381} alt="puzzle" />
           </div>
         </div>
         <div className="w-1/4 relative">
-          <div className="absolute" style={{ left: "-81px", zIndex: -1 }}>
-            <Image src={puzzle2} alt="puzzle" />
-          </div>
-          <div className="desc">
-            <h1>Test</h1>
+          <div className="absolute" style={{ left: "-79px", top: "-76px", zIndex: -1 }}>
+            <Image src="/puzzle-piece-6.png" width={380} height={380} alt="puzzle" />
           </div>
         </div>
         <div className="w-1/4 relative">
-          <div className="absolute" style={{ left: "-91px", zIndex: -1 }}>
-            <Image src={puzzle3} alt="puzzle" />
+          <div className="absolute" style={{ left: "-88px", top: "-76px", zIndex: -1 }}>
+            <Image src="/puzzle-piece-7.png" width={380} height={380} alt="puzzle" />
           </div>
         </div>
         <div className="w-1/4 relative">
-          <div
-            className="absolute"
-            style={{ left: "-100px", top: "-2px", zIndex: -1 }}
-          >
-            <Image src={puzzle4} alt="puzzle" />
+          <div className="absolute" style={{ left: "-98px", top: "0", zIndex: -1 }}>
+            <Image src="/puzzle-piece-8.png" width={380} height={309} alt="puzzle" />
           </div>
         </div>
       </div>
